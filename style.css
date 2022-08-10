@@ -40,6 +40,7 @@ ul {
     width: 60%;
     margin: auto;
     margin-top: 5px;
+   
 }
 
 #prada-bag{
@@ -53,4 +54,22 @@ ul {
 #fir-div-div div{
     flex: 1;
     color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+   
 }
+
+#fir-div-div div h1{
+    font-size: 60px;
+
+}
+
+#fir-div-div div button{
+    align-self: flex-start;
+    margin-top: 20px;
+    width: 20%;
+    height: 10%;
+    font-size: 15px;
+    border-radius: 10px;
+}
+    
